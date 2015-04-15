@@ -1,0 +1,45 @@
+<div class="container-fluid">
+
+<div class="masthead">
+      <h3 class="text-muted">Your Week at GA</h3>   
+
+  </div>
+
+<%= form_for @user, html: {multipart: true} do |f| %>
+
+    <div>
+    <%= f.label :name %>
+    <%= f.text_field :name %>
+    </div>
+
+      <div>
+    <%= f.label :username %>
+    <%= f.text_field :username %>
+    </div>
+
+      <div>
+    <%= f.label :email %>
+    <%= f.text_area :email %>
+    </div>
+
+      <div>
+    <%= f.label :password %>
+    <%= f.password_field :password %>
+    </div>
+
+    <div>
+    <%= f.label :is_admin %>
+    <%= f.text_field :is_admin %>
+    </div>
+
+    <div>
+    <%= f.label :image %>
+    <%= f.file_field :image %>
+    </div>
+    
+
+    <%= f.submit "Create profile"%>
+
+<% end %>
+
+</div>

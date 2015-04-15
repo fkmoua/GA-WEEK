@@ -1,0 +1,58 @@
+// Place all the styles related to the Weeks controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+#lead-css {
+    font-size: 16px;
+}
+
+#row-css {
+    display: inline-block;
+}
+
+#this-week {
+    background-color: #eee;
+    border: 3px solid black;
+    border-radius: 25px;
+}
+
+#next-week {
+    background-color: #eee;
+    border: 3px solid black;
+    border-radius: 25px;
+   }
+
+#office-hour {
+    background-color: #eee;
+    border: 3px solid black;
+    border-radius: 25px;
+}
+
+#resources {
+    background-color: #eee;
+    border: 3px solid black;
+    border-radius: 25px;
+    }
+
+#events {
+    background-color: #eee;
+    border: 3px solid black;
+    border-radius: 25px;
+}
+
+#week-name-button {
+    width: 150px;
+    height: 130px;
+    margin: 20px;
+}
+
+.home-style {
+    margin-top: 50px;
+    margin-left: 30px;
+    width: 1200px;
+     border: 3px solid black;
+    border-radius: 25px;
+}
+
+

@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  date: MyString
+  message: MyText
+  this_week: MyText
+  next_week: MyText
+  office_hours: MyText
+
+two:
+  name: MyString
+  date: MyString
+  message: MyText
+  this_week: MyText
+  next_week: MyText
+  office_hours: MyText

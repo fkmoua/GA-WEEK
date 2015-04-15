@@ -1,0 +1,35 @@
+<%= form_for @week do |f| %>
+
+    <div>
+    <%= f.label :name %>
+    <%= f.text_field :name %>
+    </div>
+
+      <div>
+    <%= f.label :date %>
+    <%= f.text_field :date %>
+    </div>
+
+      <div>
+    <%= f.label :message %>
+    <%= f.text_area :message %>
+    </div>
+
+      <div>
+    <%= f.label :this_week %>
+    <%= f.text_field :this_week %>
+    </div>
+
+    <div>
+    <%= f.label :next_week %>
+    <%= f.text_field :next_week %>
+    </div>
+
+       <div>
+    <%= f.label :office_hours %>
+    <%= f.text_field :office_hours %>
+    </div>
+
+    <%= f.submit "Update Week"%>
+
+<% end %>
